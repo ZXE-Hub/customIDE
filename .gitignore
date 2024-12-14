@@ -1,0 +1,61 @@
+# Qt Creator
+/.pro.user
+/.qmake.stash
+/.qmake.cache
+/.moc/
+*.pro.user*
+*.pro.user.*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+Makefile
+*.cmake
+*.generated
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Build directories
+build-*/
+build*/
+
+# Generated files
+*.moc
+*.cpp~
+*.h~
+*.orig
+
+# UI and translation files
+*.ts
+*.qmlc
+*.qrc~
+*.autosave
+
+# IDE-specific files (Qt Creator, CLion, etc.)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug/Release directories
+/debug/
+release/
+debug_shared/
+release_shared/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Miscellaneous
+*.pro.user
+
