@@ -92,6 +92,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         QML_FILES
             Main.qml
             SOURCES include/config.h
+            QML_FILES TextEditorBase.qml
+            QML_FILES Sidebar.qml
+            QML_FILES HeaderView.qml
+            QML_FILES FooterView.qml
+            QML_FILES
+            QML_FILES TabViewBase.qml
+            QML_FILES EditorView.qml
+            SOURCES include/documentHandler.h
+            SOURCES src/documentHandler.cpp
     )
 
     # Add translation processing for Qt6
